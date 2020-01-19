@@ -18,3 +18,11 @@ class Solution {
 
     }
 }
+
+/*
+OUTPUT -
+
+Original array length: 10
+New length of array: 5
+
+ */
