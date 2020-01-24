@@ -16,4 +16,4 @@ The repo is categorized as follows.
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](./Algorithms/java/src/twoSumII/Solution.java) |Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Java](./Algorithms/java/src/removeelement/Solution.java) |Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./Algorithms/java/src/addtwonumbers/Solution.java) |Medium|
-|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays//) | [Java](./Algorithms/java/src/intersectionoftwoarrays/Solution.java) |Easy|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](./Algorithms/java/src/intersectionoftwoarrays/Solution.java) |Easy|
