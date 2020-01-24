@@ -30,6 +30,7 @@ class Solution {
 
         ListNode result = null, current = null;
 
+        // TODO: Refactor this while to loop as long as either list has a node - remove second if/while
         while (l1 != null && l2 != null) {
             sum = carry + l1.val + l2.val;
             if (sum > 9) {
