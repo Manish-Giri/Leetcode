@@ -15,3 +15,4 @@ The repo is categorized as follows.
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Java](./Algorithms/java/src/implementstrStr/Solution.java) |Easy|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](./Algorithms/java/src/twoSumII/Solution.java) |Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Java](./Algorithms/java/src/removeelement/Solution.java) |Easy|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./Algorithms/java/src/addtwonumbers/Solution.java) |Medium|
