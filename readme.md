@@ -17,3 +17,4 @@ The repo is categorized as follows.
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Java](./Algorithms/java/src/removeelement/Solution.java) |Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./Algorithms/java/src/addtwonumbers/Solution.java) |Medium|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](./Algorithms/java/src/intersectionoftwoarrays/Solution.java) |Easy|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](./Algorithms/java/src/palindromenumber/Solution.java) |Easy|
