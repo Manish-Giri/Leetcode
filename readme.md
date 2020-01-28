@@ -19,3 +19,4 @@ The repo is categorized as follows.
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](./Algorithms/java/src/intersectionoftwoarrays/Solution.java) |Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](./Algorithms/java/src/palindromenumber/Solution.java) |Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./Algorithms/java/src/searchinsertposition/Solution.java) |Easy|
+|100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./Algorithms/java/src/sametree/Solution.java) |Easy|
