@@ -20,4 +20,5 @@ The repo is categorized as follows.
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](./Algorithms/java/src/palindromenumber/Solution.java) |Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./Algorithms/java/src/searchinsertposition/Solution.java) |Easy|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./Algorithms/java/src/sametree/Solution.java) |Easy|
+|136|[Single Number](https://leetcode.com/problems/single-number/) | [Java](./Algorithms/java/src/singlenumber/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./Algorithms/java/src/lengthoflastword/Solution.java) |Easy|
