@@ -23,3 +23,4 @@ The repo is categorized as follows.
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Java](./Algorithms/java/src/singlenumber/Solution.java) |Easy|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./Algorithms/java/src/lengthoflastword/Solution.java) |Easy|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Java](./Algorithms/java/src/findmodeinbst/Solution.java) |Easy|
+|66|[Plus One](https://leetcode.com/problems/plus-one/) | [Java](./Algorithms/java/src/plusone/Solution.java) |Easy|
