@@ -26,4 +26,4 @@ The repo is categorized as follows.
 |66|[Plus One](https://leetcode.com/problems/plus-one/) | [Java](./Algorithms/java/src/plusone/Solution.java) |Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](./Algorithms/java/src/lrucache/LRUCache.java) |Medium|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](./Algorithms/java/src/sqrtx/Solution.java) |Easy|
-|202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](./Algorithms/java/src/happynumber/Solution.java) |Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](./Algorithms/java/src/happynumber/Solution.java) / [Python](./Algorithms/python/happynumber/happy_number.py) |Easy|
