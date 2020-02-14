@@ -27,3 +27,4 @@ The repo is categorized as follows.
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](./Algorithms/java/src/lrucache/LRUCache.java) |Medium|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](./Algorithms/java/src/sqrtx/Solution.java) |Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](./Algorithms/java/src/happynumber/Solution.java) / [Python](./Algorithms/python/happynumber/happy_number.py) |Easy|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](./Algorithms/java/src/removedupsfromsortedlist/Solution.java) |Easy|
