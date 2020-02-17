@@ -34,3 +34,4 @@ The repo is categorized as follows.
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](./Algorithms/java/src/productofarrayexceptself/Solution.java) |Medium|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](./Algorithms/java/src/firstuniquecharacterinastring/Solution.java) |Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./Algorithms/java/src/reverselinkedlist/Solution.java) |Easy|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./Algorithms/java/src/linkedlistcycle/Solution.java) |Easy|
