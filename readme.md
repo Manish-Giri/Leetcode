@@ -37,3 +37,4 @@ The repo is categorized as follows.
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./Algorithms/java/src/linkedlistcycle/Solution.java) |Easy|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](./Algorithms/java/src/firstbadversion/Solution.java) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](./Algorithms/java/src/binarylevelordertraversal/Solution.java) |Medium|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](./Algorithms/java/src/rotatearray/Solution.java) |Easy|
