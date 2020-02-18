@@ -35,3 +35,4 @@ The repo is categorized as follows.
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](./Algorithms/java/src/firstuniquecharacterinastring/Solution.java) |Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./Algorithms/java/src/reverselinkedlist/Solution.java) |Easy|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./Algorithms/java/src/linkedlistcycle/Solution.java) |Easy|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](./Algorithms/java/src/firstbadversion/Solution.java) |Easy|
