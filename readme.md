@@ -38,3 +38,4 @@ The repo is categorized as follows.
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](./Algorithms/java/src/firstbadversion/Solution.java) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](./Algorithms/java/src/binarylevelordertraversal/Solution.java) |Medium|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](./Algorithms/java/src/rotatearray/Solution.java) |Easy|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](./Algorithms/java/src/validparentheses/Solution.java) |Easy|
