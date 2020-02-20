@@ -3,7 +3,7 @@ package binaryTreePreorderTraversal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreePreorderTraversal {
+class BinaryTreePreorderTraversal {
 
     private List<Integer> traversal = new ArrayList<>();
 
