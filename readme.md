@@ -42,3 +42,4 @@ The repo is categorized as follows.
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](./Algorithms/java/src/mergetwosortedlists/Solution.java) |Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./Algorithms/java/src/buyandsellstock/Solution.java) |Easy|
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](./Algorithms/java/src/binarytreeinordertraversal/RecursiveSolution.java)|Medium|
+237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Java](./Algorithms/java/src/deletenodeinlinkedlist/Solution.java)|Easy|
