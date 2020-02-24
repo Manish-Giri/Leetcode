@@ -43,3 +43,4 @@ The repo is categorized as follows.
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./Algorithms/java/src/buyandsellstock/Solution.java) |Easy|
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](./Algorithms/java/src/binarytreeinordertraversal/IterativeSolution.java)|Medium|
 237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Java](./Algorithms/java/src/deletenodeinlinkedlist/Solution.java)|Easy|
+42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./Algorithms/java/src/trappingrainwater/Solution.java)|Hard|
