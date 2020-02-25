@@ -44,3 +44,4 @@ The repo is categorized as follows.
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](./Algorithms/java/src/binarytreeinordertraversal/IterativeSolution.java)|Medium|
 237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Java](./Algorithms/java/src/deletenodeinlinkedlist/Solution.java)|Easy|
 42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./Algorithms/java/src/trappingrainwater/Solution.java)|Hard|
+98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](./Algorithms/java/src/validatebst/Solution.java)|Medium|
