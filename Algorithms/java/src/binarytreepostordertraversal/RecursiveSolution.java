@@ -20,9 +20,9 @@ import java.util.List;
  * Output: [3,2,1]
  */
 
-public class RecursiveSolution {
+ class RecursiveSolution {
     List<Integer> al = new ArrayList<>();
-    public List<Integer> postorderTraversal(TreeNode root) {
+     List<Integer> postorderTraversal(TreeNode root) {
         helper(root);
         return al;
     }
