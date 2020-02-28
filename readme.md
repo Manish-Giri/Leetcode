@@ -47,3 +47,4 @@ The repo is categorized as follows.
 98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](./Algorithms/java/src/validatebst/Solution.java)|Medium|
 145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./Algorithms/java/src/binarytreepostordertraversal/IterativeSolution.java)|Hard|
 155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Java](./Algorithms/java/src/minstack/MinStack.java)|Easy|
+173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Java](./Algorithms/java/src/binarysearchtreeiterator/BSTIterator.java)|Medium|
