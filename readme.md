@@ -46,3 +46,4 @@ The repo is categorized as follows.
 42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](./Algorithms/java/src/trappingrainwater/Solution.java)|Hard|
 98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](./Algorithms/java/src/validatebst/Solution.java)|Medium|
 145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./Algorithms/java/src/binarytreepostordertraversal/IterativeSolution.java)|Hard|
+155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Java](./Algorithms/java/src/minstack/MinStack.java)|Easy|
