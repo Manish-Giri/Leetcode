@@ -48,3 +48,4 @@ The repo is categorized as follows.
 145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./Algorithms/java/src/binarytreepostordertraversal/IterativeSolution.java)|Hard|
 155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Java](./Algorithms/java/src/minstack/MinStack.java)|Easy|
 173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Java](./Algorithms/java/src/binarysearchtreeiterator/BSTIterator.java)|Medium|
+41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./Algorithms/java/src/firstmissingpositive/Solution.java)|Hard|
