@@ -51,3 +51,4 @@ The repo is categorized as follows.
 41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./Algorithms/java/src/firstmissingpositive/Solution.java)|Hard|
 268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Java](./Algorithms/java/src/missingnumber/Solution.java)|Easy|
 53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](./Algorithms/java/src/maximumsubarray/Solution.java)|Easy|
+138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./Algorithms/java/src/copylistwithrandompointers/Solution.java)|Medium|
