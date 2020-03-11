@@ -48,4 +48,8 @@ The repo is categorized as follows.
 145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](./Algorithms/java/src/binarytreepostordertraversal/IterativeSolution.java)|Hard|
 155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Java](./Algorithms/java/src/minstack/MinStack.java)|Easy|
 173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Java](./Algorithms/java/src/binarysearchtreeiterator/BSTIterator.java)|Medium|
+41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./Algorithms/java/src/firstmissingpositive/Solution.java)|Hard|
+268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Java](./Algorithms/java/src/missingnumber/Solution.java)|Easy|
+53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](./Algorithms/java/src/maximumsubarray/Solution.java)|Easy|
+138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./Algorithms/java/src/copylistwithrandompointers/Solution.java)|Medium|
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](./Algorithms/java/src/fizbuzz/Solution.java)|Easy|
