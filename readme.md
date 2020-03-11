@@ -53,3 +53,4 @@ The repo is categorized as follows.
 53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](./Algorithms/java/src/maximumsubarray/Solution.java)|Easy|
 138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./Algorithms/java/src/copylistwithrandompointers/Solution.java)|Medium|
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](./Algorithms/java/src/fizbuzz/Solution.java)|Easy|
+937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Java](./Algorithms/java/src/reorderlogfiles/Solution.java)|Easy|
