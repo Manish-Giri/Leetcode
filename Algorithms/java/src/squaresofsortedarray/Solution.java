@@ -25,9 +25,70 @@ import java.util.Arrays;
  */
 
  class Solution {
+     // 1. Brute Force solution - sorting
      // Time: O(n logn) - requires sorting of array of squares
      // Space: O(n) - to store array of squares
-     int[] sortedSquares(int[] A) {
+     /*
+    int[] sortedSquares(int[] A) {
         return Arrays.stream(A).map(i -> i * i).sorted().toArray();
+     }*/
+
+     // 2. Optimal solution - two pointer approach
+     // Time: O(n) - since we're only iterating over input array once
+    public int[] sortedSquares(int[] A) {
+        // A. find index of first +ve element
+        int pos = 0;
+        while(pos < A.length && A[pos] < 0) {
+            pos++;
+        }
+        //B. find index of first largest -ve element (+ve elem idx -1)
+        // this element will have the smallest square among squares of -ve elements
+        // traverse backwards
+        int neg = pos - 1;
+        int[] res = new int[A.length];
+        int idx = 0;
+        while(neg >= 0 && pos < A.length) {
+            int posSq = A[pos] * A[pos];
+            int negSq = A[neg] * A[neg];
+            if(negSq < posSq) {
+                res[idx++] = negSq;
+                neg--;
+            }
+            else {
+                res[idx++] = posSq;
+                pos++;
+            }
+        }
+
+        // copy left over elements
+        while(neg >= 0) {
+            res[idx++] = A[neg] * A[neg];
+            neg--;
+        }
+        while(pos < A.length) {
+            res[idx++] = A[pos] * A[pos];
+            pos++;
+        }
+        return res;
     }
+
+    /*
+    Runtime: 1 ms, faster than 100.00% of Java online submissions for Squares of a Sorted Array.
+    Memory Usage: 42.3 MB, less than 63.41% of Java online submissions for Squares of a Sorted Array.
+     */
 }
+
+/*
+Approach 2: Two Pointer
+Intuition
+
+Since the array A is sorted, loosely speaking it has some negative elements with squares in decreasing order, then some non-negative elements with squares in increasing order.
+
+For example, with [-3, -2, -1, 4, 5, 6], we have the negative part [-3, -2, -1] with squares [9, 4, 1], and the positive part [4, 5, 6] with squares [16, 25, 36]. Our strategy is to iterate over the negative part in reverse, and the positive part in the forward direction.
+
+Algorithm
+
+We can use two pointers to read the positive and negative parts of the array - one pointer j in the positive direction, and another i in the negative direction.
+
+Now that we are reading two increasing arrays (the squares of the elements), we can merge these arrays together using a two-pointer technique.
+ */
