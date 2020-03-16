@@ -55,3 +55,4 @@ The repo is categorized as follows.
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](./Algorithms/java/src/fizbuzz/Solution.java)|Easy|
 937|[Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Java](./Algorithms/java/src/reorderlogfiles/Solution.java)|Easy|
 200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](./Algorithms/java/src/numberofislands/Solution.java)|Medium|
+1086|[High Five](https://leetcode.com/problems/high-five/) | [Java](./Algorithms/java/src/highfive/Solution.java)|Easy|
