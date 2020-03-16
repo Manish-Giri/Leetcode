@@ -31,7 +31,11 @@ import java.util.Arrays;
      /*
     int[] sortedSquares(int[] A) {
         return Arrays.stream(A).map(i -> i * i).sorted().toArray();
-     }*/
+     }
+
+     Runtime: 8 ms, faster than 10.17% of Java online submissions for Squares of a Sorted Array.
+     Memory Usage: 44.2 MB, less than 5.48% of Java online submissions for Squares of a Sorted Array.
+     */
 
      // 2. Optimal solution - two pointer approach
      // Time: O(n) - since we're only iterating over input array once
