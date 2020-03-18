@@ -39,7 +39,7 @@ import java.util.Arrays;
 
      // 2. Optimal solution - two pointer approach
      // Time: O(n) - since we're only iterating over input array once
-    public int[] sortedSquares(int[] A) {
+    int[] sortedSquares(int[] A) {
         // A. find index of first +ve element
         int pos = 0;
         while(pos < A.length && A[pos] < 0) {
