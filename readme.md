@@ -57,3 +57,4 @@ The repo is categorized as follows.
 200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](./Algorithms/java/src/numberofislands/Solution.java)|Medium|
 1086|[High Five](https://leetcode.com/problems/high-five/) | [Java](./Algorithms/java/src/highfive/Solution.java)|Easy|
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](./Algorithms/java/src/squaresofsortedarray/Solution.java)|Easy|
+953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Java](./Algorithms/java/src/verifyingaliendictionary/Solution.java)|Easy|
