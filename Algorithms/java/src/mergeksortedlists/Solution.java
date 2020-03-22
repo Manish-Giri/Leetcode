@@ -13,9 +13,14 @@ class ListNode {
  
  class Solution {
 
-      // Approach 1 - Combine each linkedlist's element's value into an AL
-      // sort the AL, and create a new LL from the AL and return it
-      // Time - O(n logn) for sort, Space - O(n) for the auxiliary list
+       /*
+       Approach 1 - Combine each linkedlist's element's value into an AL
+       sort the AL, and create a new LL from the AL and return it
+       Time - O(n logn) for sort, Space - O(n) for the auxiliary list
+
+       Runtime: 22 ms, faster than 18.99% of Java online submissions for Merge k Sorted Lists.
+       Memory Usage: 45.6 MB, less than 17.49% of Java online submissions for Merge k Sorted Lists.
+       */
       ListNode mergeKLists(ListNode[] lists) {
          List<Integer> list = new ArrayList<>();
          for(ListNode l: lists) {
