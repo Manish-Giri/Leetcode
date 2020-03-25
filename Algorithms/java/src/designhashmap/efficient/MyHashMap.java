@@ -129,3 +129,12 @@ Runtime: 17 ms, faster than 50.63% of Java online submissions for Design HashMap
 Memory Usage: 47.1 MB, less than 100.00% of Java online submissions for Design HashMap.
  */
 
+/*
+Complexity
+
+Time Complexity: for each of the methods, the time complexity is O(N/K) where N is the number of all possible keys and K is the number of predefined buckets in the hashmap, which is 2069 in our case.
+ - In the ideal case, the keys are evenly distributed in all buckets. As a result, on average, we could consider the size of the bucket is N/K
+ - Since in the worst case we need to iterate through a bucket to find the desire value, the time complexity of each method is O(N/K).
+
+Space Complexity: O(K+M) where K is the number of predefined buckets in the hashmap and M is the number of unique keys that have been inserted into the hashmap.
+ */
