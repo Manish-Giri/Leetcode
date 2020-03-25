@@ -59,3 +59,4 @@ The repo is categorized as follows.
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](./Algorithms/java/src/squaresofsortedarray/Solution.java)|Easy|
 953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Java](./Algorithms/java/src/verifyingaliendictionary/Solution.java)|Easy|
 23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](./Algorithms/java/src/mergeksortedlists/Solution.java)|Hard|
+706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Java](./Algorithms/java/src/designhashmap/efficient/MyHashMap.java)|Easy|
