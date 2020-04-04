@@ -61,3 +61,4 @@ The repo is categorized as follows.
 23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](./Algorithms/java/src/mergeksortedlists/Solution.java)|Hard|
 706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Java](./Algorithms/java/src/designhashmap/efficient/MyHashMap.java)|Easy|
 819|[Most Common Word](https://leetcode.com/problems/most-common-word/) | [Java](./Algorithms/java/src/mostcommonword/Solution.java)|Easy|
+283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](./Algorithms/java/src/movezeroes/Solution.java)|Easy|
