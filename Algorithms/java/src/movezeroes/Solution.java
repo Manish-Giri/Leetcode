@@ -68,5 +68,33 @@ class Solution {
             nums[i] = 0;
         }
     }
+
+    /*
+    Approach 3 - Optimal space, optimal # of operations
+    Details
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Move Zeroes.
+    Memory Usage: 40.5 MB, less than 5.59% of Java online submissions for Move Zeroes.
+
+    Swap non zero elements with zero elements in same iteration, avoids a second pass to write zeroes
+    efficient when array has many zeroes
+    however same as other approaches where array has mostly non zero elements
+
+    Time - O(n) with optimal(minimum) # of operations, because we swap elements in one iteration itself
+    doesn't require a second pass to copy zeroes
+     */
+    void moveZeroes(int[] nums) {
+        for (int placeNextNonZeroElementAt = 0, curr = 0; curr < nums.length; curr++) {
+            if (nums[curr] != 0) {
+                swap(nums, placeNextNonZeroElementAt, curr);
+                placeNextNonZeroElementAt++;
+            }
+        }
+    }
+
+    private void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }
 
