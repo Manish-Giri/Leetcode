@@ -62,3 +62,4 @@ The repo is categorized as follows.
 706|[Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Java](./Algorithms/java/src/designhashmap/efficient/MyHashMap.java)|Easy|
 819|[Most Common Word](https://leetcode.com/problems/most-common-word/) | [Java](./Algorithms/java/src/mostcommonword/Solution.java)|Easy|
 283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](./Algorithms/java/src/movezeroes/Solution.java)|Easy|
+49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](./Algorithms/java/src/groupanagrams/Solution.java)|Medium|
