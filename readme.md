@@ -64,3 +64,4 @@ The repo is categorized as follows.
 283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](./Algorithms/java/src/movezeroes/Solution.java)|Easy|
 49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](./Algorithms/java/src/groupanagrams/Solution.java)|Medium|
 ?|[Counting Elements](https://leetcode.com/problems/?/) | [Java](./Algorithms/java/src/countingelements/Solution.java)|?|
+876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](./Algorithms/java/src/middleoflinkedlist/Solution.java)|Easy|
