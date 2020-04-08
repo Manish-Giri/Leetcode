@@ -63,3 +63,4 @@ The repo is categorized as follows.
 819|[Most Common Word](https://leetcode.com/problems/most-common-word/) | [Java](./Algorithms/java/src/mostcommonword/Solution.java)|Easy|
 283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](./Algorithms/java/src/movezeroes/Solution.java)|Easy|
 49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](./Algorithms/java/src/groupanagrams/Solution.java)|Medium|
+?|[Counting Elements](https://leetcode.com/problems/?/) | [Java](./Algorithms/java/src/countingelements/Solution.java)|?|
