@@ -45,32 +45,22 @@ class Solution {
      * Memory Usage: 37.5 MB, less than 6.06% of Java online submissions for Backspace String Compare.
      */
     boolean backspaceCompare(String S, String T) {
-        Stack<Character> s1 = new Stack<>();
-        Stack<Character> s2 = new Stack<>();
-        for (char c : S.toCharArray()) {
-            if (c == '#') {
-                if (!s1.isEmpty()) {
-                    s1.pop();
-                }
-            } else {
-                s1.push(c);
-            }
-        }
+        Stack<Character> s1 = stackBuilder(S);
+        Stack<Character> s2 = stackBuilder(T);
+        return s1.size() == s2.size() && String.valueOf(s1).equals(String.valueOf(s2));
+    }
 
-        for (char c : T.toCharArray()) {
+    private Stack<Character> stackBuilder(String str) {
+        Stack<Character> s = new Stack<>();
+        for (char c : str.toCharArray()) {
             if (c == '#') {
-                if (!s2.isEmpty()) {
-                    s2.pop();
+                if (!s.isEmpty()) {
+                    s.pop();
                 }
             } else {
-                s2.push(c);
+                s.push(c);
             }
         }
-        if (s1.size() != s2.size()) return false;
-        while (!s1.isEmpty() && !s2.isEmpty()) {
-            if (s1.pop() != s2.pop())
-                return false;
-        }
-        return true;
+        return s;
     }
 }
