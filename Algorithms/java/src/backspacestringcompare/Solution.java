@@ -66,40 +66,66 @@ class Solution {
 
     /**
      * Approach - two pointer
-     * Iterate through the string in reverse. If we see a backspace character, the next non-backspace character      * is skipped. If a character isn't skipped, it is part of the final answer.
+     * Iterate through the string in reverse. If we see a backspace character, the next non-backspace character    * is skipped. If a character isn't skipped, it is part of the final answer.
+     * Time Complexity: O(M + N). Space Complexity : O(1)
+     * <p>
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Backspace String Compare.
+     * Memory Usage: 37.8 MB, less than 6.06% of Java online submissions for Backspace String Compare.
      */
     boolean backspaceCompare_ApproachTwo(String S, String T) {
-        int i = S.length() - 1, j = T.length() - 1;
-        int skipS = 0, skipT = 0;
-
-        while (i >= 0 || j >= 0) { // While there may be chars in build(S) or build (T)
-            while (i >= 0) { // Find position of next possible char in build(S)
+        int i = S.length() - 1, j = T.length() - 1, skipS = 0, skipT = 0;
+        // iterate from reverse
+        while (i >= 0 || j >= 0) {
+            // look for first usable character in S
+            while (i >= 0) {
+                // case 1 - if # char - incr count of bckspace (skipS), and decr i
                 if (S.charAt(i) == '#') {
                     skipS++;
                     i--;
-                } else if (skipS > 0) {
+                }
+                // case 2 - if not a # char, and # has been encountered earlier,
+                // then ignore as many bckspace chars as has been accumulated in skipS so far, and decr it
+                else if (skipS > 0) {
                     skipS--;
                     i--;
-                } else break;
+                }
+                // case 3 - now encountered usable char, extract it for comparison with T
+                else
+                    break;
             }
-            while (j >= 0) { // Find position of next possible char in build(T)
+
+            // look for first usable character in T
+            while (j >= 0) {
+                // case 1 - if # char - incr count of bckspace (skipS), and decr i
                 if (T.charAt(j) == '#') {
                     skipT++;
                     j--;
-                } else if (skipT > 0) {
+                }
+                // case 2 - if not a # char, and # has been encountered earlier,
+                // then ignore as many bckspace chars as has been accumulated in skipS so far, and decr it
+                else if (skipT > 0) {
                     skipT--;
                     j--;
-                } else break;
+                }
+                // case 3 - now encountered usable char, extract it for comparison with S
+                else
+                    break;
             }
-            // If two actual characters are different
+
+            // if chars exists in both i and j -> compare them, return false if not equal
             if (i >= 0 && j >= 0 && S.charAt(i) != T.charAt(j))
                 return false;
-            // If expecting to compare char vs nothing
-            if ((i >= 0) != (j >= 0))
+
+            // if one char exists in S or T while no chars left in other, return false
+            if ((i >= 0 && j < 0) || (i < 0 && j >= 0))
                 return false;
+
             i--;
             j--;
+
         }
+        // outside while - return true
         return true;
+
     }
 }
