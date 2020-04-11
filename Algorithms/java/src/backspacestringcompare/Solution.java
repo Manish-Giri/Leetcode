@@ -44,7 +44,7 @@ class Solution {
      * Runtime: 1 ms, faster than 62.48% of Java online submissions for Backspace String Compare.
      * Memory Usage: 37.5 MB, less than 6.06% of Java online submissions for Backspace String Compare.
      */
-    boolean backspaceCompare(String S, String T) {
+    boolean backspaceCompare_ApproachOne(String S, String T) {
         Stack<Character> s1 = stackBuilder(S);
         Stack<Character> s2 = stackBuilder(T);
         return s1.size() == s2.size() && String.valueOf(s1).equals(String.valueOf(s2));
@@ -62,5 +62,44 @@ class Solution {
             }
         }
         return s;
+    }
+
+    /**
+     * Approach - two pointer
+     * Iterate through the string in reverse. If we see a backspace character, the next non-backspace character      * is skipped. If a character isn't skipped, it is part of the final answer.
+     */
+    boolean backspaceCompare_ApproachTwo(String S, String T) {
+        int i = S.length() - 1, j = T.length() - 1;
+        int skipS = 0, skipT = 0;
+
+        while (i >= 0 || j >= 0) { // While there may be chars in build(S) or build (T)
+            while (i >= 0) { // Find position of next possible char in build(S)
+                if (S.charAt(i) == '#') {
+                    skipS++;
+                    i--;
+                } else if (skipS > 0) {
+                    skipS--;
+                    i--;
+                } else break;
+            }
+            while (j >= 0) { // Find position of next possible char in build(T)
+                if (T.charAt(j) == '#') {
+                    skipT++;
+                    j--;
+                } else if (skipT > 0) {
+                    skipT--;
+                    j--;
+                } else break;
+            }
+            // If two actual characters are different
+            if (i >= 0 && j >= 0 && S.charAt(i) != T.charAt(j))
+                return false;
+            // If expecting to compare char vs nothing
+            if ((i >= 0) != (j >= 0))
+                return false;
+            i--;
+            j--;
+        }
+        return true;
     }
 }
