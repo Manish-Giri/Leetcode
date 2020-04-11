@@ -67,3 +67,4 @@ The repo is categorized as follows.
 876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](./Algorithms/java/src/middleoflinkedlist/Solution.java)|Easy|
 369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Java](./Algorithms/java/src/plusonelinkedlist/Solution.java)|Medium|
 844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Java](./Algorithms/java/src/backspacestringcompare/Solution.java)|Easy|
+104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](./Algorithms/java/src/maximumdepthofbinarytree/Solution.java)|Easy|
