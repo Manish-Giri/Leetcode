@@ -71,3 +71,4 @@ The repo is categorized as follows.
 543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](./Algorithms/java/src/diameterofbinarytree/Solution.java)|Easy|
 415|[Add Strings](https://leetcode.com/problems/add-strings/) | [Java](./Algorithms/java/src/addstrings/Solution.java)|Easy|
 443|[String Compression](https://leetcode.com/problems/string-compression/) | [Java](./Algorithms/java/src/stringcompression/Solution.java)|Easy|
+1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Java](./Algorithms/java/src/laststoneweight/Solution.java)|Easy|
