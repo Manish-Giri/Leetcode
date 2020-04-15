@@ -74,3 +74,4 @@ The repo is categorized as follows.
 1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Java](./Algorithms/java/src/laststoneweight/Solution.java)|Easy|
 ?|[Perform String Shifts](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3299/) | [Java](./Algorithms/java/src/performstringshifts/Solution.java)|?|
 525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](./Algorithms/java/src/contiguousarray/Solution.java)|Medium|
+125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](./Algorithms/java/src/validpalindrome/Solution.java)|Easy|
