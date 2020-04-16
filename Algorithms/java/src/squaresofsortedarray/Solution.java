@@ -37,8 +37,11 @@ import java.util.Arrays;
      Memory Usage: 44.2 MB, less than 5.48% of Java online submissions for Squares of a Sorted Array.
      */
 
-     // 2. Optimal solution - two pointer approach
-     // Time: O(n) - since we're only iterating over input array once
+    /** 2. Optimal solution - two pointer approach
+     * Time: O(n) - since we're only iterating over input array once
+     * Runtime: 1 ms, faster than 100.00% of Java online submissions for Squares of a Sorted Array.
+     *  Memory Usage: 42.3 MB, less than 63.41% of Java online submissions for Squares of a Sorted Array.
+     */
     int[] sortedSquares(int[] A) {
         // A. find index of first +ve element
         int pos = 0;
@@ -75,11 +78,6 @@ import java.util.Arrays;
         }
         return res;
     }
-
-    /*
-    Runtime: 1 ms, faster than 100.00% of Java online submissions for Squares of a Sorted Array.
-    Memory Usage: 42.3 MB, less than 63.41% of Java online submissions for Squares of a Sorted Array.
-     */
 }
 
 /*
