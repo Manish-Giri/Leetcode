@@ -1,5 +1,7 @@
 package findnumberswithevennumofdigits;
 
+import java.util.Arrays;
+
 /**
  * Given an array nums of integers, return how many of them contain an even number of digits.
  * <p>
@@ -30,16 +32,55 @@ package findnumberswithevennumofdigits;
  */
 class Solution {
 
-    /*
-    Runtime: 1 ms, faster than 92.37% of Java online submissions for Find Numbers with Even Number of Digits.
-    Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
-    */
-    int findNumbers(int[] nums) {
+
+    /**
+     * Approach - Check length of string representation of number
+     * <p>
+     * Runtime: 1 ms, faster than 92.37% of Java online submissions for Find Numbers with Even Number of Digits.
+     * Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
+     */
+    int findNumbers_ApproachOne(int[] nums) {
         int evenDigits = 0;
         for (int n : nums) {
             if (String.valueOf(n).length() % 2 == 0)
                 evenDigits++;
         }
         return evenDigits;
+    }
+
+
+    /**
+     * Approach - Using streams, Check length of string representation of number
+     * <p>
+     * Runtime: 3 ms, faster than 11.97% of Java online submissions for Find Numbers with Even Number of Digits.
+     * Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
+     */
+    int findNumbers_ApproachTwo(int[] nums) {
+        return (int) Arrays.stream(nums).filter(arr -> String.valueOf(arr).length() % 2 == 0).count();
+    }
+
+    /**
+     * Approach - Count number of digits of each number, select even digit numbers
+     * <p>
+     * Runtime: 1 ms, faster than 92.37%  of Java online submissions for Find Numbers with Even Number of Digits.
+     * Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
+     */
+    int findNumbers_ApproachThree(int[] nums) {
+        int ans = 0;
+        for (int n : nums) {
+            if (countDigits(n) % 2 == 0) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+
+    private int countDigits(int num) {
+        int count = 0;
+        while (num > 0) {
+            count++;
+            num /= 10;
+        }
+        return count;
     }
 }
