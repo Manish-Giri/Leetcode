@@ -76,3 +76,4 @@ The repo is categorized as follows.
 525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](./Algorithms/java/src/contiguousarray/Solution.java)|Medium|
 125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](./Algorithms/java/src/validpalindrome/Solution.java)|Easy|
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](./Algorithms/java/src/maxconsecutiveones/Solution.java)|Easy|
+1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](./Algorithms/java/src/findnumberswithevennumofdigits/Solution.java)|Easy|
