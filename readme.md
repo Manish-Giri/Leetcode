@@ -80,3 +80,4 @@ The repo is categorized as follows.
 678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./Algorithms/java/src/validparenthesisstring/Solution.java)|Medium|
 64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](./Algorithms/java/src/minimumpathsum/Solution.java)|Medium|
 33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Java](./Algorithms/java/src/searchinrotatedsortedarray/Solution.java)|Medium|
+1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Java](./Algorithms/java/src/constructbstfrompreordertraversal/Solution.java)|Medium|
