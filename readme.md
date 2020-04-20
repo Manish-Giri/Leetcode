@@ -79,3 +79,4 @@ The repo is categorized as follows.
 1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](./Algorithms/java/src/findnumberswithevennumofdigits/Solution.java)|Easy|
 678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](./Algorithms/java/src/validparenthesisstring/Solution.java)|Medium|
 64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](./Algorithms/java/src/minimumpathsum/Solution.java)|Medium|
+33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Java](./Algorithms/java/src/searchinrotatedsortedarray/Solution.java)|Medium|
