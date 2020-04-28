@@ -85,3 +85,4 @@ The repo is categorized as follows.
 560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](./Algorithms/java/src/subarraysumequalsk/Solution.java)|Medium|
 201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Java](./Algorithms/java/src/bitwiseandofnumbersrange/Solution.java)|Medium|
 55|[Jump Game](https://leetcode.com/problems/jump-game/) | [Java](./Algorithms/java/src/jumpgame/Solution.java)|Medium|
+221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./Algorithms/java/src/maximalsquare/Solution.java)|Medium|
