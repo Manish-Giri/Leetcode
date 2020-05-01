@@ -88,3 +88,4 @@ The repo is categorized as follows.
 221|[Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](./Algorithms/java/src/maximalsquare/Solution.java)|Medium|
 ?|[First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [Java](./Algorithms/java/src/firstuniquenumber/FirstUnique.java)|?|
 124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](./Algorithms/java/src/binarytreemaximumpathsum/Solution.java)|Hard|
+?|[Check String Is Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3315/) | [Java](./Algorithms/java/src/checkstringvalidsequencebtree/Solution.java)|?|
