@@ -92,3 +92,4 @@ The repo is categorized as follows.
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Java](./Algorithms/java/src/findallnumbersdisappearedinanarray/Solution.java)|Easy|
 1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Java](./Algorithms/java/src/duplicatezeroes/Solution.java)|Easy|
 203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./Algorithms/java/src/removelinkedlistelements/Solution.java)|Easy|
+896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Java](./Algorithms/java/src/monotonicarray/Solution.java)|Easy
