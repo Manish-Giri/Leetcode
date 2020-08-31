@@ -92,5 +92,6 @@ The repo is categorized as follows.
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Java](./Algorithms/java/src/findallnumbersdisappearedinanarray/Solution.java)|Easy|
 1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Java](./Algorithms/java/src/duplicatezeroes/Solution.java)|Easy|
 203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./Algorithms/java/src/removelinkedlistelements/Solution.java)|Easy|
-896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Java](./Algorithms/java/src/monotonicarray/Solution.java)|Easy
+896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Java](./Algorithms/java/src/monotonicarray/Solution.java)|Easy|
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./Algorithms/java/src/removenthnodefromendlinkedlist/twopasswithsentinel/Solution.java)|Medium|
+101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./Algorithms/java/src/symmetrictree/recursive/Solution.java)|Easy|
