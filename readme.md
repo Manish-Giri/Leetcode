@@ -95,3 +95,4 @@ The repo is categorized as follows.
 896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Java](./Algorithms/java/src/monotonicarray/Solution.java)|Easy|
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./Algorithms/java/src/removenthnodefromendlinkedlist/twopasswithsentinel/Solution.java)|Medium|
 101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./Algorithms/java/src/symmetrictree/recursive/Solution.java)|Easy|
+234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./Algorithms/java/src/palindromelinkedlist/Solution.java)|Easy|
