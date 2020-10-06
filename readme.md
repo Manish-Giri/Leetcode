@@ -96,3 +96,4 @@ The repo is categorized as follows.
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./Algorithms/java/src/removenthnodefromendlinkedlist/twopasswithsentinel/Solution.java)|Medium|
 101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./Algorithms/java/src/symmetrictree/recursive/Solution.java)|Easy|
 234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./Algorithms/java/src/palindromelinkedlist/Solution.java)|Easy|
+532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Java](./Algorithms/java/src/kdiffpairsinarray/Solution.java)|Medium|
