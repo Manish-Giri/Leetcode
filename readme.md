@@ -97,3 +97,4 @@ The repo is categorized as follows.
 101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./Algorithms/java/src/symmetrictree/recursive/Solution.java)|Easy|
 234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./Algorithms/java/src/palindromelinkedlist/Solution.java)|Easy|
 532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Java](./Algorithms/java/src/kdiffpairsinarray/Solution.java)|Medium|
+701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Java](./Algorithms/java/src/InsertIntoaBST/Solution.java)|Medium|
