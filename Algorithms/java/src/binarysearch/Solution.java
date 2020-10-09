@@ -26,6 +26,12 @@ package binarysearch;
 
 class Solution {
 
+    /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Search.
+     * Memory Usage: 40.3 MB, less than 10.21% of Java online submissions for Binary Search.
+     *
+     * Time - O(log n) | Space - O(log n)
+     */
     int search(int[] nums, int target) {
         return helper(nums, target, 0, nums.length - 1);
     }
