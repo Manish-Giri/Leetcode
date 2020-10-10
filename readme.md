@@ -100,3 +100,4 @@ The repo is categorized as follows.
 701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Java](./Algorithms/java/src/InsertIntoaBST/Solution.java)|Medium|
 15|[3Sum](https://leetcode.com/problems/3sum/) | [Java](./Algorithms/java/src/threesum/sortandtwopointers/Solution.java)|Medium|
 704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Java](./Algorithms/java/src/binarysearch/Solution.java)|Easy|
+449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [Java](./Algorithms/java/src/serializedeserializeBST/Solution.java)|Medium|
