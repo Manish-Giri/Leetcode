@@ -101,3 +101,4 @@ The repo is categorized as follows.
 15|[3Sum](https://leetcode.com/problems/3sum/) | [Java](./Algorithms/java/src/threesum/sortandtwopointers/Solution.java)|Medium|
 704|[Binary Search](https://leetcode.com/problems/binary-search/) | [Java](./Algorithms/java/src/binarysearch/Solution.java)|Easy|
 449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [Java](./Algorithms/java/src/serializedeserializeBST/Solution.java)|Medium|
+1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) | [Java](./Algorithms/java/src/removeVowelsFromAString/Solution.java)|Easy|
