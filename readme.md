@@ -28,7 +28,7 @@ The repo is categorized as follows.
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](./Algorithms/java/src/sqrtx/Solution.java) |Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](./Algorithms/java/src/happynumber/Solution.java) / [Python](./Algorithms/python/happynumber/happy_number.py) |Easy|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](./Algorithms/java/src/removedupsfromsortedlist/Solution.java) |Easy|
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./Algorithms/java/src/mergesortedarray/Solution.java) |Easy|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./Algorithms/java/src/mergesortedarray/optimized/Solution.java) |Easy|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/) | [Java](./Algorithms/java/src/keyboardrow/Solution.java) |Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](./Algorithms/java/src/implementqueueusingstacks/MyQueue.java) |Easy|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](./Algorithms/java/src/productofarrayexceptself/Solution.java) |Medium|
