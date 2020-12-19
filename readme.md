@@ -104,3 +104,4 @@ The repo is categorized as follows.
 1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) | [Java](./Algorithms/java/src/removeVowelsFromAString/Solution.java)|Easy|
 1328|[Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Java](./Algorithms/java/src/breakapalindrome/Solution.java)|Medium|
 454|[4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](./Algorithms/java/src/foursumII/hashmap/Solution.java)|Medium|
+334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./Algorithms/java/src/increasingtripletsubsequence/first/Solution.java)|Medium|
