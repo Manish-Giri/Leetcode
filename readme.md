@@ -107,4 +107,4 @@ The repo is categorized as follows.
 334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Java](./Algorithms/java/src/increasingtripletsubsequence/first/Solution.java)|Medium|
 46|[Permutations](https://leetcode.com/problems/permutations/) | [Java](./Algorithms/java/src/permutations/optimized/Solution.java)|Medium|
 1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Java](./Algorithms/java/src/runningsumof1Darray/Solution.java)|Easy|
-
+1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Java](./Algorithms/java/src/ranktransformofarray/hashmap/Solution.java)|Easy|
