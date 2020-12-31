@@ -109,3 +109,4 @@ The repo is categorized as follows.
 1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Java](./Algorithms/java/src/runningsumof1Darray/Solution.java)|Easy|
 1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Java](./Algorithms/java/src/ranktransformofarray/hashmap/Solution.java)|Easy|
 1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | [Java](./Algorithms/java/src/threeconsecutiveodds/hashmap/Solution.java)|Easy|
+#832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](./Algorithms/java/src/flippinganimage/bruteforce/Solution.java)|Easy|
