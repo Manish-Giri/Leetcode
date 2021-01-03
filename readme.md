@@ -110,3 +110,4 @@ The repo is categorized as follows.
 1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Java](./Algorithms/java/src/ranktransformofarray/hashmap/Solution.java)|Easy|
 1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | [Java](./Algorithms/java/src/threeconsecutiveodds/hashmap/Solution.java)|Easy|
 #832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](./Algorithms/java/src/flippinganimage/bruteforce/Solution.java)|Easy|
+#1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [Java](./Algorithms/java/src/checkarrayformationconcatenation/bruteforce/Solution.java)|Easy|
