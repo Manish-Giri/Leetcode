@@ -1,0 +1,6 @@
+package pathsum;
+
+class Solution {
+
+
+}
