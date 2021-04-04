@@ -111,3 +111,6 @@ The repo is categorized as follows.
 1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | [Java](./Algorithms/java/src/threeconsecutiveodds/hashmap/Solution.java)|Easy|
 #832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](./Algorithms/java/src/flippinganimage/bruteforce/Solution.java)|Easy|
 #1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [Java](./Algorithms/java/src/checkarrayformationconcatenation/bruteforce/Solution.java)|Easy|
+#1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [Java](./Algorithms/java/src/check2stringarraysequivalent/bruteforce/Solution.java)| Easy |
+#339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Java](./Algorithms/java/src/nestedlistweightsum/dfs/Solution.java)|Easy|
+#112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Java](./Algorithms/java/src/pathsum/Solution.java)|Easy|
