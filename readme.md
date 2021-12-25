@@ -115,3 +115,4 @@ The repo is categorized as follows.
 #339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Java](./Algorithms/java/src/nestedlistweightsum/dfs/Solution.java)|Easy|
 #112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Java](./Algorithms/java/src/pathsum/Solution.java)|Easy|
 #169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Java](./Algorithms/java/src/majorityelement/bruteforce/Solution.java)|Easy|
+#1822|[Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | [Java](./Algorithms/java/src/signofproductofarray/bruteforce/Solution.java)|Easy|
