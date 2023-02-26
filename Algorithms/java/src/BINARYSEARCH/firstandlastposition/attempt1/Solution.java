@@ -40,13 +40,9 @@ class Solution {
      * Beats
      * 100%
      * Memory
-     * 48.4 MB
+     * 45.5 MB
      * Beats
-     * 5.52%
-     *
-     * @param nums
-     * @param target
-     * @return
+     * 70.1%
      */
     static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
@@ -63,14 +59,14 @@ class Solution {
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (target > nums[mid]) start = mid + 1;
-            else if(target < nums[mid]) end = mid - 1;
+            else if (target < nums[mid]) end = mid - 1;
             else {
                 // found matching element, now look in left or right half for more occurrences
+                // save current occurrence index if no more occurrence found
                 ans = mid;
-                if(isAsc) {
+                if (isAsc) {
                     end = mid - 1;
-                }
-                else {
+                } else {
                     start = mid + 1;
                 }
             }
@@ -80,7 +76,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,7,7,7,7,7,7,7,8,8,9,10};
+        int[] arr = {1, 2, 3, 4, 5, 7, 7, 7, 7, 7, 7, 7, 8, 8, 9, 10};
         int[] res = searchRange(arr, 7);
         System.out.println(Arrays.toString(res));
     }
