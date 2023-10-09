@@ -1,7 +1,8 @@
-package main
+package twosum
 
 import "fmt"
 
+// Two Sum problem
 func twoSum(nums []int, target int) []int {
 	result := make([]int, 2)
 	myMap := make(map[int]int)
@@ -18,6 +19,7 @@ func twoSum(nums []int, target int) []int {
 	}
 	return result
 }
+
 func main() {
 	nums := []int{2, 7, 11, 15}
 	target := 9
