@@ -1,9 +1,7 @@
 package twosum
 
-import "fmt"
-
-// Two Sum problem
-func twoSum(nums []int, target int) []int {
+// TwoSum Two Sum problem
+func TwoSum(nums []int, target int) []int {
 	result := make([]int, 2)
 	myMap := make(map[int]int)
 	for index, value := range nums {
@@ -18,11 +16,4 @@ func twoSum(nums []int, target int) []int {
 		}
 	}
 	return result
-}
-
-func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 9
-	result := twoSum(nums, target)
-	fmt.Println("Result: ", result)
 }
